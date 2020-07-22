@@ -85,6 +85,7 @@ while True:
             lore = lore.replace(i, codesInternal[i])
         for i in codes:
             lore = lore.replace(i, codes[i])
+        lores.append(lore)
     except KeyboardInterrupt:
         break
 nbt = generate(name, lores)
