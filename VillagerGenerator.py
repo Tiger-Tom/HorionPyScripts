@@ -14,7 +14,7 @@ def generateTrade(item1, item1Amount, sell, sellAmount):
         item1 = 'minecraft:'+item1
     if not 'minecraft:' in sell:
         sell = 'minecraft:'+sell
-    trade = '{buyA:{Count:'+item1Amount+'b,Damage:0s,Name:"'+sell+'",WasPickedUp:0b},buyCountA:'+item1Amount+',buyCountB:0,demand:0,maxUses:4500,priceMultiplierA:0f,priceMultiplierB:0f,rewardExp:1b,sell:{Count:'+sellAmount+'b,Damage:0s,Name:"'+sell+'",WasPickedUp:0b},tier:0,traderExp:2,uses:0}'
+    trade = '{buyA:{Count:'+item1Amount+'b,Damage:0s,Name:"'+item1+'",WasPickedUp:0b},buyCountA:'+item1Amount+',buyCountB:0,demand:0,maxUses:4500,priceMultiplierA:0f,priceMultiplierB:0f,rewardExp:1b,sell:{Count:'+sellAmount+'b,Damage:0s,Name:"'+sell+'",WasPickedUp:0b},tier:0,traderExp:2,uses:0}'
     #'{buyA:{Count:6b,Damage:32767s,Name:"minecraft:leather",WasPickedUp:0b},buyCountA:6,buyCountB:0,demand:0,maxUses:16,priceMultiplierA:0.05f,priceMultiplierB:0f,rewardExp:1b,sell:{Count:1b,Damage:0s,Name:"minecraft:emerald",WasPickedUp:0b},tier:0,traderExp:2,uses:10}'
     return trade
 def generateTrades(trades):
