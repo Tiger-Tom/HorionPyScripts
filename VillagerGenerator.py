@@ -1,4 +1,4 @@
-from tkinter import Tk 
+from tkinter import Tk
 def askCopyClip(nbt):
     if input('COPY TEXT TO CLIPBOARD? (Y\\N) >').lower() != 'n':
         r = Tk()
