@@ -8,7 +8,7 @@ def askCopyClip(nbt):
         r.update()
         r.destroy()
 patterns = {
-    'Black Snout': 'pig',
+    'Snout': 'pig',
     'Bordure Indenter': 'bfo',
     'Field Masoned': 'bri',
     'Thing': 'moj',
